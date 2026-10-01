@@ -1,0 +1,23 @@
+{
+	"schemaVersion": 1,
+	"id": "one-block",
+	"version": "${version}",
+	"name": "One Block",
+	"description": "Allows creating new One Block worlds using the One Block datapack!",
+	"authors": ["navzary"],
+	"contact": {
+		"homepage": "https://modrinth.com/mod/one-block-mod",
+		"curseforge": "https://www.curseforge.com/minecraft/mc-mods/one-block-mod",
+		"sources": "https://github.com/navzary/One-Block-Mod"
+	},
+	"license": "ARR",
+	"icon": "assets/one-block/icon.png",
+	"environment": "client",
+	"mixins": ["one-block.mixins.json"],
+	"depends": {
+		"fabricloader": ">=0.16.0",
+		"minecraft": "~1.21",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}

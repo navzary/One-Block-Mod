@@ -1,0 +1,7 @@
+{
+	"required": true,
+	"package": "net.nav.oneblock",
+	"compatibilityLevel": "JAVA_21",
+	"client": ["OneBlock","OneBlock$WT","OneBlock$CWS","OneBlock$ISL","OneBlock$CWP"],
+	"injectors": {"defaultRequire": 1}
+}
